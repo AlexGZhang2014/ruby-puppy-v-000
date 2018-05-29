@@ -9,7 +9,7 @@ class Dog
   attr_accessor :name
   
   def self.all
-    @@all.each { |dog| puts dog }
+    @@all.each { |dog| puts dog.name }
   end
   
   def self.clear_all
